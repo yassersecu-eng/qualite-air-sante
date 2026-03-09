@@ -1,69 +1,284 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
 <meta charset="UTF-8">
-<title>Qualité de l'air</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>La qualité de l'air et la santé</title>
 
 <style>
+
 body{
-font-family: Arial;
+font-family: Arial, sans-serif;
 margin:0;
 background:#f4f9ff;
+color:#333;
 }
 
+/* HERO */
+
 header{
-background:linear-gradient(135deg,#4facfe,#00f2fe);
+background:linear-gradient(135deg,#3a7bd5,#00d2ff);
 color:white;
-padding:80px;
+padding:120px 20px;
 text-align:center;
 }
 
+header h1{
+font-size:48px;
+margin-bottom:10px;
+}
+
+header p{
+font-size:20px;
+opacity:0.9;
+}
+
+/* SECTIONS */
+
 section{
-padding:40px;
-max-width:900px;
+max-width:1100px;
 margin:auto;
+padding:60px 20px;
+}
+
+h2{
+text-align:center;
+margin-bottom:40px;
+}
+
+/* CARDS */
+
+.cards{
+display:flex;
+flex-wrap:wrap;
+gap:25px;
+justify-content:center;
 }
 
 .card{
 background:white;
-padding:20px;
-margin:20px;
-border-radius:10px;
-box-shadow:0 5px 15px rgba(0,0,0,0.1);
-transition:transform 0.3s;
+padding:25px;
+border-radius:12px;
+box-shadow:0 8px 20px rgba(0,0,0,0.1);
+width:300px;
+transition:0.3s;
 }
 
 .card:hover{
-transform:scale(1.05);
+transform:translateY(-8px);
 }
+
+/* LISTS */
+
+ul{
+line-height:1.8;
+}
+
+/* MESSAGE */
+
+.message{
+background:#00aaff;
+color:white;
+padding:50px;
+text-align:center;
+font-size:22px;
+border-radius:10px;
+}
+
+/* SOURCES */
+
+.sources{
+background:#eef6ff;
+padding:40px;
+border-radius:10px;
+}
+
+.sources a{
+color:#0066cc;
+text-decoration:none;
+}
+
+footer{
+text-align:center;
+padding:20px;
+margin-top:40px;
+font-size:14px;
+color:#666;
+}
+
 </style>
 </head>
 
 <body>
 
 <header>
-<h1>La qualité de l'air et la santé</h1>
-<p>Comprendre pourquoi l'air propre est essentiel</p>
+
+<h1>🌍 La qualité de l'air et la santé</h1>
+
+<p>Comprendre pourquoi l'air que nous respirons est essentiel pour notre santé</p>
+
 </header>
 
 <section>
 
+<h2>Qu'est-ce que la pollution de l'air ?</h2>
+
+<div class="cards">
+
 <div class="card">
-<h2>Pollution de l'air</h2>
-<p>La pollution de l'air est causée par les voitures, les usines et certaines activités humaines.</p>
+<h3>Pollution de l'air</h3>
+<p>
+La pollution de l’air correspond à la présence de substances dangereuses dans l’air que nous respirons.
+</p>
 </div>
 
 <div class="card">
-<h2>Effets sur la santé</h2>
-<p>Elle peut provoquer des maladies respiratoires et cardiovasculaires.</p>
+<h3>Principaux polluants</h3>
+
+<ul>
+<li>Particules fines (PM2.5 et PM10)</li>
+<li>Dioxyde d’azote (NO₂)</li>
+<li>Ozone (O₃)</li>
+<li>Gaz industriels</li>
+</ul>
+
 </div>
 
 <div class="card">
-<h2>Solutions</h2>
-<p>Utiliser les transports en commun, marcher ou faire du vélo.</p>
+<h3>Sources de pollution</h3>
+
+<ul>
+<li>Les voitures</li>
+<li>Les usines</li>
+<li>Le chauffage</li>
+<li>Les feux et incendies</li>
+</ul>
+
+</div>
+
 </div>
 
 </section>
+
+<section>
+
+<h2>Les effets sur la santé</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Problèmes respiratoires</h3>
+
+<ul>
+<li>Asthme</li>
+<li>Bronchite</li>
+<li>Difficultés respiratoires</li>
+</ul>
+
+</div>
+
+<div class="card">
+<h3>Maladies cardiovasculaires</h3>
+
+<p>
+Les particules fines peuvent entrer dans le sang et provoquer des maladies du cœur ou des AVC.
+</p>
+
+</div>
+
+<div class="card">
+<h3>Enfants plus sensibles</h3>
+
+<ul>
+<li>Développement des poumons ralenti</li>
+<li>Augmentation des allergies</li>
+</ul>
+
+</div>
+
+</div>
+
+<p style="text-align:center;margin-top:30px;font-size:18px;">
+Selon l’OMS, la pollution de l’air cause environ <b>7 millions de décès par an dans le monde.</b>
+</p>
+
+</section>
+
+<section>
+
+<h2>Comment améliorer la qualité de l'air ?</h2>
+
+<div class="cards">
+
+<div class="card">
+🚆 Utiliser les transports en commun
+</div>
+
+<div class="card">
+🚲 Faire du vélo ou marcher
+</div>
+
+<div class="card">
+🚗 Réduire l’usage de la voiture
+</div>
+
+<div class="card">
+⚡ Utiliser les énergies renouvelables
+</div>
+
+<div class="card">
+🌳 Planter plus d’arbres
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="message">
+
+⚠️ L’air que nous respirons influence directement notre santé.  
+Protéger la qualité de l’air, c’est protéger notre avenir.
+
+</div>
+
+</section>
+
+<section class="sources">
+
+<h2>Sources</h2>
+
+<ul>
+
+<li>
+Organisation mondiale de la santé (OMS)  
+<br>
+<a href="https://www.who.int">https://www.who.int</a>
+</li>
+
+<li>
+Santé Publique France  
+<br>
+<a href="https://www.santepubliquefrance.fr">https://www.santepubliquefrance.fr</a>
+</li>
+
+<li>
+Airparif  
+<br>
+<a href="https://www.airparif.fr">https://www.airparif.fr</a>
+</li>
+
+</ul>
+
+</section>
+
+<footer>
+
+Projet éducatif – Qualité de l’air et santé
+
+</footer>
 
 </body>
 </html>
